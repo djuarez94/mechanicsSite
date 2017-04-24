@@ -29,7 +29,7 @@
 			</div>
 		</nav>
 		<div class="parallax"></div>
-
+		<div class="test"></div>
 	</body>
 
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
