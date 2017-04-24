@@ -37,3 +37,38 @@ nav.navbar.navbar-inverse {
     /* ie8- graceful degradation */
     background-position:50% 50%\9 !important;
 }
+
+.parallax {
+   text-align: center;
+}
+
+.parallaxContent {
+   padding-top: 60%;
+}
+
+.parallaxContent p {
+   font-size: 2.5em;
+   color: #fff;
+   padding-bottom: 1em;
+}
+
+.parallaxContent button {
+   font-size: 1.5em;
+   border: none;
+   border-radius: 25px;
+   padding: 10px 20px 10px 20px;
+   background-color: #519fb7;
+}
+
+.parallaxContent button a {
+   color: #fff;
+}
+
+.parallaxContent button a:hover {
+   color: #519fb7;
+   text-decoration: none;
+}
+
+.parallaxContent button:hover {
+   background-color: #fff;
+}

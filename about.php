@@ -21,16 +21,16 @@
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
 					   <li class="active"><a href="index.php">Home</a></li>
-					   <li><a href="about.php">About Us</a></li>
-					   <li><a href="contact.php">Contact</a></li>
-					   <li><a href="services.php">Services</a></li>
+ 					   <li><a href="about.php">About Us</a></li>
+ 					   <li><a href="contact.php">Contact</a></li>
+ 					   <li><a href="services.php">Services</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 		<div class="parallax">
 			<div class="parallaxContent">
-				<p>Pepe's Car Repair Solutions</p>
+				<p>Fixing Car Problems for 10 Years!</p>
 				<button type="button" name="button"><a href="about.php">Learn More!</a></button>
 			</div>
 		</div>
