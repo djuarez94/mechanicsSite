@@ -1,0 +1,23 @@
+/*-------------------------------------
+| Parallax Effect
+-------------------------------------*/
+.parallax {
+    /* The image used */
+    background-image: url("../img/BG_1.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-------------------------------------
+| index.php CSS
+-------------------------------------*/
+nav.navbar.navbar-inverse {
+    margin-bottom: 0px;
+}
