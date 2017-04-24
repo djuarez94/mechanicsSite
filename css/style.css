@@ -40,6 +40,7 @@ nav.navbar.navbar-inverse {
 
 .parallax {
    text-align: center;
+   padding: 1.5em;
 }
 
 .parallaxContent {
@@ -71,4 +72,29 @@ nav.navbar.navbar-inverse {
 
 .parallaxContent button:hover {
    background-color: #fff;
+}
+
+/*-------------------------------------
+| contact.php CSS
+-------------------------------------*/
+div.email {
+   font-size: 1em;
+   float: left;
+   display: flex;
+   margin-top: 1em;
+}
+
+div.email p {
+   padding-left: 10px;
+}
+
+div.number p {
+   padding-left: 10px;
+}
+
+div.number {
+   font-size: 1em;
+   float: right;
+   display: flex;
+   margin-top: 1em;
 }

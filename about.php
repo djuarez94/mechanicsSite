@@ -34,6 +34,27 @@
 				<button type="button" name="button"><a href="about.php">Learn More!</a></button>
 			</div>
 		</div>
+		<div class="info">
+			<h2>Mission Statement</h2>
+			<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
+		</div>
+		<div class="info">
+			<h2>Values & Beliefs</h2>
+			<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
+		</div>
+		<div class="experience">
+			<h2>Experience</h2>
+			<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
+			<div class="carLogos">
+				<img src="">
+				<img src="">
+				<img src="">
+			</div>
+		</div>
+		<footer>
+			<img src="">
+			<p>&copy; <?php echo date('Y'); ?> Company Name. All rights reserved.</p>
+		</footer>
 	</body>
 
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>

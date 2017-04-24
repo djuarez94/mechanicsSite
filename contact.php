@@ -6,6 +6,7 @@
 		<title>Mechanic Site</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
@@ -29,11 +30,41 @@
 			</div>
 		</nav>
 		<div class="parallax">
+			<div class="email">
+				<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
+				<p>emailAddress@email.com</p>
+			</div>
+			<div class="number">
+				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
+				<p>675-485-9384</p>
+			</div>
 			<div class="parallaxContent">
 				<p>Contact Me Today!</p>
 				<button type="button" name="button"><a href="about.php">Learn More!</a></button>
 			</div>
 		</div>
+		<div class="contact">
+			<form class="" action="index.html" method="post">
+				<label for="">Full Name</label>
+				<input type="text" name="" value="">
+				<label for="">Email</label>
+				<input type="text" name="" value="">
+				<label for="">Car Model/ Year</label>
+				<input type="text" name="" value="">
+				<label for="">Car Problem</label>
+				<input type="text" name="" value="">
+				<label for="">Message</label>
+				<input type="text" name="" value="">
+				<input type="button" name="" value="Submit">
+			</form>
+		</div>
+		<footer>
+			<img src="">
+			<div class="socialLinks">
+
+			</div>
+			<p>&copy; <?php echo date('Y'); ?> Company Name. All rights reserved.</p>
+		</footer>
 	</body>
 
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>

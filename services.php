@@ -6,6 +6,7 @@
 		<title>Mechanic Site</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
@@ -29,9 +30,39 @@
 			</div>
 		</nav>
 		<div class="parallax">
+			<div class="email">
+				<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
+				<p>emailAddress@email.com</p>
+			</div>
+			<div class="number">
+				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
+				<p>675-485-9384</p>
+			</div>
 			<div class="parallaxContent">
 				<p>What Can I Do For You?</p>
-				<button type="button" name="button"><a href="about.php">Learn More!</a></button>
+				<button type="button" name="button"><a href="about.php">Find Out!</a></button>
+			</div>
+		</div>
+		<div class="services">
+			<div>
+				<h2>Car Inspection</h2>
+				<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
+			</div>
+			<div>
+				<h2>Oil Changes</h2>
+				<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
+			</div>
+			<div>
+				<h2>Battery</h2>
+				<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
+			</div>
+			<div>
+				<h2>Radiator</h2>
+				<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
+			</div>
+			<div>
+				<h2>Specials!</h2>
+				<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
 			</div>
 		</div>
 	</body>
