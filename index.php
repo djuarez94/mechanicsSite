@@ -6,6 +6,7 @@
 		<title>Mechanic Site</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet"> 
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
