@@ -6,7 +6,7 @@
 		<title>Mechanic Site</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
@@ -32,19 +32,19 @@
 		<div class="parallax">
 			<div class="parallaxContent">
 				<p>Fixing Car Problems for 10 Years!</p>
-				<button type="button" name="button"><a href="about.php">Learn More!</a></button>
+				<button type="button" name="button"><a href="#infoFirst">Learn More!</a></button>
 			</div>
 		</div>
-		<div class="info">
-			<h2>Mission Statement</h2>
+		<div class="info" id ="infoFirst">
+			<h3>Mission Statement</h3>
 			<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
 		</div>
 		<div class="info">
-			<h2>Values & Beliefs</h2>
+			<h3>Values & Beliefs</h3>
 			<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
 		</div>
-		<div class="experience">
-			<h2>Experience</h2>
+		<div class="info experience">
+			<h3>Experience</h3>
 			<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
 			<div class="carLogos">
 				<img src="">

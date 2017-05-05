@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
@@ -41,10 +41,10 @@
 			</div>
 			<div class="parallaxContent">
 				<p>What Can I Do For You?</p>
-				<button type="button" name="button"><a href="about.php">Find Out!</a></button>
+				<button type="button" name="button"><a href="#services">Find Out!</a></button>
 			</div>
 		</div>
-		<div class="services">
+		<div class="services" id="services">
 			<div>
 				<h2>Car Inspection</h2>
 				<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>

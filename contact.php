@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
@@ -41,10 +41,10 @@
 			</div>
 			<div class="parallaxContent">
 				<p>Contact Me Today!</p>
-				<button type="button" name="button"><a href="about.php">Learn More!</a></button>
+				<button type="button" name="button"><a href="#contact">Learn More!</a></button>
 			</div>
 		</div>
-		<div class="contact">
+		<div class="contact" id="contact">
 			<form class="" action="index.html" method="post">
 				<label for="">Full Name</label>
 				<input type="text" name="" value="">
