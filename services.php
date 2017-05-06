@@ -18,7 +18,7 @@
 				   <span class="icon-bar"></span>
 				   <span class="icon-bar"></span>
 				 </button>
-				 <a class="navbar-brand" href="#">WebSiteName</a>
+				 <a class="navbar-brand" href="index.php">WebSiteName</a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
@@ -45,27 +45,34 @@
 			</div>
 		</div>
 		<div class="services" id="services">
-			<div>
+			<div class="parent">
 				<h2>Car Inspection</h2>
 				<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
 			</div>
-			<div>
+			<div class="parent shade">
 				<h2>Oil Changes</h2>
 				<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
 			</div>
-			<div>
+			<div class="parent">
 				<h2>Battery</h2>
 				<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
 			</div>
-			<div>
+			<div class="parent shade">
 				<h2>Radiator</h2>
 				<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
 			</div>
-			<div>
+			<div class="parent">
 				<h2>Specials!</h2>
 				<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
 			</div>
 		</div>
+		<footer>
+			<img src="">
+			<div class="socialLinks">
+
+			</div>
+			<p class="copyright">&copy; <?php echo date('Y'); ?> Company Name. All rights reserved.</p>
+		</footer>
 	</body>
 
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>

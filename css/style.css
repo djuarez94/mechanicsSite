@@ -80,7 +80,8 @@ nav.navbar.navbar-inverse {
 | about.php CSS
 -------------------------------------*/
 .experience {
-	background-color: #acbffa;
+	background-color: #dae1ef;
+   border-top: solid 1px #1a1a1a;
 }
 
 .info {
@@ -110,4 +111,38 @@ div.number {
    float: right;
    display: flex;
    margin-top: 1em;
+}
+
+.contact {
+   /*background-color: red;*/
+   width: 70%;
+   text-align: center;
+   margin: auto;
+   margin-top: 2em;
+   margin-bottom: 2em;
+}
+/*-------------------------------------
+| services.php CSS
+-------------------------------------*/
+.services {
+   background-color: rgba(211, 212, 243, 0.27);
+   /*padding: 1.2em;*/
+}
+
+.parent {
+   padding: 1em 1em 1em 1em;
+}
+
+.shade {
+   background-color: rgb(250, 200, 150);
+}
+/*-------------------------------------
+| footer CSS
+-------------------------------------*/
+.copyright {
+   text-align: center;
+   padding: 10px 10px 10px 0px;
+   margin-bottom: 0px;
+   background-color: #1a1a1a;
+   color: #fff;
 }

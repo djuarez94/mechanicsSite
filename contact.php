@@ -18,7 +18,7 @@
 				   <span class="icon-bar"></span>
 				   <span class="icon-bar"></span>
 				 </button>
-				 <a class="navbar-brand" href="#">WebSiteName</a>
+				 <a class="navbar-brand" href="index.php">WebSiteName</a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
@@ -45,18 +45,24 @@
 			</div>
 		</div>
 		<div class="contact" id="contact">
-			<form class="" action="index.html" method="post">
-				<label for="">Full Name</label>
-				<input type="text" name="" value="">
-				<label for="">Email</label>
-				<input type="text" name="" value="">
-				<label for="">Car Model/ Year</label>
-				<input type="text" name="" value="">
-				<label for="">Car Problem</label>
-				<input type="text" name="" value="">
-				<label for="">Message</label>
-				<input type="text" name="" value="">
-				<input type="button" name="" value="Submit">
+			<form method="post" action="?" id="contact" class="form-horizontal  text-left">
+				<div class="form-group text-left">
+					<label for="name">Name:</label>
+					<input name="name" type="name" class="form-control" id="name" placeholder= "Who will I be communicating with?">
+				</div>
+				<div class="form-group text-left">
+					<label for="email">Email:</label>
+					<input name="email" type="email" class="form-control" id="email" placeholder= "What is your email?">
+				</div>
+				<div class="form-group text-left">
+					<label for="subject">Subject:</label>
+					<input name="subject" type="text" class="form-control" id="subject" placeholder= "What is your email about?">
+				</div>
+				<div class="form-group text-left">
+					<label for="message">Message:</label>
+					<textarea rows="4" cols="50" id="GDmessage" name="message" style="width:100%" placeholder= "Type message here..." ></textarea>
+				</div>
+				<input id="button" type="submit" value="Submit" name="submit">
 			</form>
 		</div>
 		<footer>
@@ -64,7 +70,7 @@
 			<div class="socialLinks">
 
 			</div>
-			<p>&copy; <?php echo date('Y'); ?> Company Name. All rights reserved.</p>
+			<p class="copyright">&copy; <?php echo date('Y'); ?> Company Name. All rights reserved.</p>
 		</footer>
 	</body>
 

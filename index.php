@@ -6,7 +6,7 @@
 		<title>Mechanic Site</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
@@ -17,7 +17,7 @@
 				   <span class="icon-bar"></span>
 				   <span class="icon-bar"></span>
 				 </button>
-				 <a class="navbar-brand" href="#">WebSiteName</a>
+				 <a class="navbar-brand" href="index.php">WebSiteName</a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
