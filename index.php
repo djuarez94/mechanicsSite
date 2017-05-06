@@ -6,7 +6,7 @@
 		<title>Mechanic Site</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet"> -->
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
@@ -30,58 +30,58 @@
 			</div>
 		</nav>
 		<div id="mycarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#mycarousel" data-slide-to="1"></li>
-    <li data-target="#mycarousel" data-slide-to="2"></li>
-    <li data-target="#mycarousel" data-slide-to="3"></li>
-    <li data-target="#mycarousel" data-slide-to="4"></li>
-  </ol>
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#mycarousel" data-slide-to="1"></li>
+		    <li data-target="#mycarousel" data-slide-to="2"></li>
+		    <li data-target="#mycarousel" data-slide-to="3"></li>
+		    <li data-target="#mycarousel" data-slide-to="4"></li>
+		  </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item">
-        <img src="img/BG_1.jpg"  alt="First Image">
-        <!-- <div class="carousel-caption"> -->
-            <!-- <h3>First Image</h3> -->
-        <!-- </div> -->
-    </div>
-    <div class="item">
-        <img src="img/BG_1.jpg"  alt="Second Image">
-        <!-- <div class="carousel-caption"> -->
-            <!-- <h3>Second Image</h3> -->
-        <!-- </div> -->
-    </div>
-    <div class="item">
-        <img src="img/BG_1.jpg"  alt="Third Image">
-        <!-- <div class="carousel-caption"> -->
-            <!-- <h3>Third Image</h3> -->
-        <!-- </div> -->
-    </div>
-    <div class="item">
-        <img src="img/BG_1.jpg"  alt="Fourth Image">
-        <!-- <div class="carousel-caption"> -->
-            <!-- <h3>Fourth Image</h3> -->
-        <!-- </div> -->
-    </div>
-    <div class="item">
-        <img src="img/BG_1.jpg"  alt="Fifth Image">
-        <!-- <div class="carousel-caption"> -->
-            <!-- <h3>Fifth Image</h3> -->
-        <!-- </div> -->
-    </div>
-  </div>
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item">
+		        <img src="img/BG_1.jpg"  alt="First Image">
+		        <!-- <div class="carousel-caption"> -->
+		            <!-- <h3>First Image</h3> -->
+		        <!-- </div> -->
+		    </div>
+		    <div class="item">
+		        <img src="img/BG_1.jpg"  alt="Second Image">
+		        <!-- <div class="carousel-caption"> -->
+		            <!-- <h3>Second Image</h3> -->
+		        <!-- </div> -->
+		    </div>
+		    <div class="item">
+		        <img src="img/BG_1.jpg"  alt="Third Image">
+		        <!-- <div class="carousel-caption"> -->
+		            <!-- <h3>Third Image</h3> -->
+		        <!-- </div> -->
+		    </div>
+		    <div class="item">
+		        <img src="img/BG_1.jpg"  alt="Fourth Image">
+		        <!-- <div class="carousel-caption"> -->
+		            <!-- <h3>Fourth Image</h3> -->
+		        <!-- </div> -->
+		    </div>
+		    <div class="item">
+		        <img src="img/BG_1.jpg"  alt="Fifth Image">
+		        <!-- <div class="carousel-caption"> -->
+		            <!-- <h3>Fifth Image</h3> -->
+		        <!-- </div> -->
+		    </div>
+		  </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
 </div>
 
 	</body>
