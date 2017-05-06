@@ -17,7 +17,7 @@
 				   <span class="icon-bar"></span>
 				   <span class="icon-bar"></span>
 				 </button>
-				 <a class="navbar-brand" href="index.php">WebSiteName</a>
+				 <a class="navbar-brand" href="index.php">Mechanic Site</a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
@@ -30,6 +30,10 @@
 			</div>
 		</nav>
 		<div id="mycarousel" class="carousel slide" data-ride="carousel">
+			<div class="parallaxContent">
+				<p>Fixing Car Problems for 10 Years!</p>
+				<button type="button" name="button"><a href="#infoFirst">Learn More!</a></button>
+			</div>
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
 		    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
