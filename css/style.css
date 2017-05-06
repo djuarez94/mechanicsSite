@@ -77,12 +77,21 @@ nav.navbar.navbar-inverse {
 }
 
 /*Slideshow Effect CSS---*/
-h3 {
+.item h3 {
   display: inline-block;
   padding: 10px;
   background: #B9121B;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+.carousel-inner {
+  opacity: .75;
 }
 
 .full-screen {
