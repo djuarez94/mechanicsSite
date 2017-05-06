@@ -6,6 +6,9 @@
 		<title>Mechanic Site</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<!-- <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet"> -->
 	</head>
 	<body>
@@ -30,10 +33,7 @@
 			</div>
 		</nav>
 		<div id="mycarousel" class="carousel slide" data-ride="carousel">
-			<div class="parallaxContent">
-				<p>Fixing Car Problems for 10 Years!</p>
-				<button type="button" name="button"><a href="#infoFirst">Learn More!</a></button>
-			</div>
+
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
 		    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
