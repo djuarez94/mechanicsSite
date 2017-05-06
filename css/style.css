@@ -44,7 +44,7 @@ nav.navbar.navbar-inverse {
 }
 
 .parallaxContent {
-   padding-top: 60%;
+   padding-top: 40%;
 }
 
 .parallaxContent p {
@@ -74,6 +74,21 @@ nav.navbar.navbar-inverse {
 
 .parallaxContent button:hover {
    background-color: #fff;
+}
+
+/*Slideshow Effect CSS---*/
+h3 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*-------------------------------------
