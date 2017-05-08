@@ -1,10 +1,13 @@
 $(document).ready(function(){
-
+/*-------------------------------------
+| Slideshow Effect
+-------------------------------------*/
     var $item = $('.carousel .item');
     var $wHeight = $(window).height();
     $item.eq(0).addClass('active');
     $item.height($wHeight);
     $item.addClass('full-screen');
+
 
     $('.carousel img').each(function() {
       var $src = $(this).attr('src');
@@ -25,4 +28,12 @@ $(document).ready(function(){
       interval: 6000,
       pause: "false"
     });
+
+    /*-------------------------------------
+    | Fade-Ins
+    -------------------------------------*/
+    $('.parallaxContentHome p').delay(500).fadeIn(400);
+    $('.parallaxContentHome  button').delay(1700).fadeIn(300);
+    $('.parallaxContent p').delay(500).fadeIn(400);
+    $('.parallaxContent  button').delay(1700).fadeIn(300);
 });

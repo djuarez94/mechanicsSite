@@ -57,6 +57,7 @@ nav.navbar.navbar-inverse {
    padding-bottom: 1em;
    text-shadow: 0px 2px #010304;
    font-family: 'Rajdhani', sans-serif;
+   display: none;
 }
 
 .parallaxContentHome button {
@@ -65,6 +66,7 @@ nav.navbar.navbar-inverse {
    border-radius: 25px;
    padding: 10px 20px 10px 20px;
    background-color: #519fb7;
+   display: none;
 }
 
 .parallaxContentHome button a {
@@ -74,10 +76,12 @@ nav.navbar.navbar-inverse {
 .parallaxContentHome button a:hover {
    color: #519fb7;
    text-decoration: none;
+   /*transition: .5;*/
 }
 
 .parallaxContentHome button:hover {
    background-color: #fff;
+   /*transition: .5;*/
 }
 
 .parallaxContent {
@@ -90,6 +94,7 @@ nav.navbar.navbar-inverse {
    padding-bottom: 1em;
    text-shadow: 0px 2px #010304;
    font-family: 'Rajdhani', sans-serif;
+   display: none;
 }
 
 .parallaxContent button {
@@ -98,6 +103,7 @@ nav.navbar.navbar-inverse {
    border-radius: 25px;
    padding: 10px 20px 10px 20px;
    background-color: #519fb7;
+   display: none;
 }
 
 .parallaxContent button a {

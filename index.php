@@ -34,8 +34,8 @@
 		</nav>
 		<div id="mycarousel" class="carousel slide" data-ride="carousel">
 			<div class="parallaxContentHome">
-				<p>What Can I Do For You?</p>
-				<button type="button" name="button"><a href="#services">Find Out!</a></button>
+				<p>Pepe's Car Repair Solutions</p>
+				<button type="button" name="button"><a href="about.php">Who Am I?</a></button>
 			</div>
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
