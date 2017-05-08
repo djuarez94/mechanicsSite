@@ -22,10 +22,10 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-					   <li class="active"><a href="index.php">Home</a></li>
+					   <li><a href="index.php">Home</a></li>
  					   <li><a href="about.php">About Us</a></li>
  					   <li><a href="contact.php">Contact</a></li>
- 					   <li><a href="services.php">Services</a></li>
+ 					   <li class="active"><a href="services.php">Services</a></li>
 					</ul>
 				</div>
 			</div>
@@ -41,7 +41,7 @@
 			</div>
 			<div class="parallaxContent">
 				<p>What Can I Do For You?</p>
-				<button type="button" name="button"><a class="services" href="#services">Find Out!</a></button>
+				<button type="button" name="button"><a class="servicesButton" href="#services">Find Out!</a></button>
 			</div>
 		</div>
 		<div class="services" id="services">

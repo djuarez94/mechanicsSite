@@ -28,10 +28,43 @@ html, body {
 -------------------------------------*/
 nav.navbar.navbar-inverse {
     margin-bottom: 0px;
+    background-color: #0086af;
+    border: none;
 }
 
-.navbar-nav {
+ul.nav.navbar-nav {
    text-align: center;
+   margin-bottom: 0;
+   margin-top: 0;
+}
+
+.navbar-inverse a.navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse button.navbar-toggle {
+    border: none;
+}
+
+.navbar-inverse button.navbar-toggle:focus,
+   .navbar-inverse button.navbar-toggle:hover {
+    background-color: #014f67;
+}
+
+.navbar-inverse .navbar-nav>.active>a:focus,
+   .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #014f67;
+}
+
+ul.nav.navbar-nav li a{
+   color: #fff;
+}
+
+ul.nav.navbar-nav li.active a,
+   ul.nav.navbar-nav li.active a:hover{
+   background-color: #fff;
+   color: #0086af;
 }
 
 .background {
@@ -69,7 +102,7 @@ nav.navbar.navbar-inverse {
    border: none;
    border-radius: 25px;
    padding: 10px 20px 10px 20px;
-   background-color: #519fb7;
+   background-color: #0086af;
    display: none;
 }
 
@@ -78,14 +111,17 @@ nav.navbar.navbar-inverse {
 }
 
 .parallaxContentHome button a:hover {
-   color: #519fb7;
+   color: #0086af;
    text-decoration: none;
-   /*transition: .5;*/
+   transition: .5s;
+   cursor: pointer;
 }
 
 .parallaxContentHome button:hover {
    background-color: #fff;
-   /*transition: .5;*/
+   transition: .5s;
+   border: solid 3px #0086af;
+   cursor: pointer;
 }
 
 .parallaxContent {
@@ -106,7 +142,7 @@ nav.navbar.navbar-inverse {
    border: none;
    border-radius: 25px;
    padding: 10px 20px 10px 20px;
-   background-color: #519fb7;
+   background-color: #0086af;
    display: none;
 }
 
@@ -115,12 +151,17 @@ nav.navbar.navbar-inverse {
 }
 
 .parallaxContent button a:hover {
-   color: #519fb7;
+   color: #0086af;
    text-decoration: none;
+   transition: .5s;
+   cursor: pointer;
 }
 
 .parallaxContent button:hover {
    background-color: #fff;
+   transition: .5s;
+   border: solid 3px #0086af;
+   cursor: pointer;
 }
 
 /*Slideshow Effect CSS---*/
@@ -208,6 +249,10 @@ div.number {
 
 .shade {
    background-color: rgb(250, 200, 150);
+}
+
+.parent h2 {
+   margin-top: 10px;
 }
 /*-------------------------------------
 | footer CSS

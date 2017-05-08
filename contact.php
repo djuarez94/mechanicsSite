@@ -22,9 +22,9 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-					   <li class="active"><a href="index.php">Home</a></li>
+					   <li><a href="index.php">Home</a></li>
  					   <li><a href="about.php">About Us</a></li>
- 					   <li><a href="contact.php">Contact</a></li>
+ 					   <li class="active"><a href="contact.php">Contact</a></li>
  					   <li><a href="services.php">Services</a></li>
 					</ul>
 				</div>

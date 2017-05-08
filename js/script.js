@@ -58,5 +58,5 @@ $(document).ready(function(){
 
     $(".about").click(scrollAbout);
     $(".contact").click(scrollContact);
-    $(".services").click(scrollServices);
+    $(".servicesButton").click(scrollServices);
 });
