@@ -30,6 +30,10 @@ nav.navbar.navbar-inverse {
     margin-bottom: 0px;
 }
 
+.navbar-nav {
+   text-align: center;
+}
+
 .background {
     background-repeat:no-repeat;
     /* custom background-position */
