@@ -60,9 +60,9 @@
 				</div>
 				<div class="form-group text-left">
 					<label for="message">Message:</label>
-					<textarea rows="4" cols="50" id="GDmessage" name="message" style="width:100%" placeholder= "Type message here..." ></textarea>
+					<textarea rows="4" cols="50" id="message" name="message" style="width:100%" placeholder= "Type message here..." ></textarea>
 				</div>
-				<input id="button" type="submit" value="Submit" name="submit">
+				<input id="submitButton" type="submit" value="Submit" name="submit">
 			</form>
 		</div>
 		<footer>

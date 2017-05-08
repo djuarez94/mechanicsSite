@@ -283,3 +283,21 @@ a i#socialLinks:hover {
 .copyright {
    color: #fff;
 }
+
+#submitButton {
+   font-size: 1.25em;
+   border: none;
+   border-radius: 25px;
+   padding: 10px 20px 10px 20px;
+   background-color: #0086af;
+   color: #fff;
+   margin-left: -1em;
+}
+
+#submitButton:hover {
+   background-color: #fff;
+   transition: .5s;
+   border: solid 3px #0086af;
+   cursor: pointer;
+   color: #0086af;
+}
