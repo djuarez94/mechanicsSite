@@ -68,7 +68,9 @@
 		<footer>
 			<img src="">
 			<div class="socialLinks">
-
+				<a href="https://facebook.com"><i id="socialLinks" class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="https://instagram.com"><i id="socialLinks" class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="https://twitter.com"><i id="socialLinks" class="fa fa-twitter-square" aria-hidden="true"></i></a>
 			</div>
 			<p class="copyright">&copy; <?php echo date('Y'); ?> Company Name. All rights reserved.</p>
 		</footer>
