@@ -43,6 +43,43 @@ nav.navbar.navbar-inverse {
    padding: 1.5em;
 }
 
+.parallaxContentHome {
+   padding-top: 40%;
+   position: absolute;
+   left: 10%;
+   right: 10%;
+   z-index: 1;
+   text-align: center;
+}
+.parallaxContentHome p {
+   font-size: 3em;
+   color: #fff;
+   padding-bottom: 1em;
+   text-shadow: 0px 2px #010304;
+   font-family: 'Rajdhani', sans-serif;
+}
+
+.parallaxContentHome button {
+   font-size: 1.5em;
+   border: none;
+   border-radius: 25px;
+   padding: 10px 20px 10px 20px;
+   background-color: #519fb7;
+}
+
+.parallaxContentHome button a {
+   color: #fff;
+}
+
+.parallaxContentHome button a:hover {
+   color: #519fb7;
+   text-decoration: none;
+}
+
+.parallaxContentHome button:hover {
+   background-color: #fff;
+}
+
 .parallaxContent {
    padding-top: 40%;
 }
@@ -88,10 +125,12 @@ nav.navbar.navbar-inverse {
 .carousel-control.left, .carousel-control.right {
    background-image:none !important;
    filter:none !important;
+   display: none;
 }
 
 .carousel-inner {
   opacity: .75;
+  index: 0;
 }
 
 .full-screen {
@@ -104,8 +143,7 @@ nav.navbar.navbar-inverse {
 | about.php CSS
 -------------------------------------*/
 .experience {
-	background-color: #dae1ef;
-   border-top: solid 1px #1a1a1a;
+	background-color: rgb(250, 200, 150);
 }
 
 .info {

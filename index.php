@@ -33,7 +33,10 @@
 			</div>
 		</nav>
 		<div id="mycarousel" class="carousel slide" data-ride="carousel">
-
+			<div class="parallaxContentHome">
+				<p>What Can I Do For You?</p>
+				<button type="button" name="button"><a href="#services">Find Out!</a></button>
+			</div>
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
 		    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
