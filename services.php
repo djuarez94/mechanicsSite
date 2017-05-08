@@ -41,7 +41,7 @@
 			</div>
 			<div class="parallaxContent">
 				<p>What Can I Do For You?</p>
-				<button type="button" name="button"><a href="#services">Find Out!</a></button>
+				<button type="button" name="button"><a class="services" href="#services">Find Out!</a></button>
 			</div>
 		</div>
 		<div class="services" id="services">

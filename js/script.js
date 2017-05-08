@@ -36,4 +36,27 @@ $(document).ready(function(){
     $('.parallaxContentHome  button').delay(1700).fadeIn(300);
     $('.parallaxContent p').delay(500).fadeIn(400);
     $('.parallaxContent  button').delay(1700).fadeIn(300);
+
+    /*-------------------------------------
+    | Smooth Scroll Effect
+    -------------------------------------*/
+    function scrollAbout () {
+        $('html,body').animate({
+            scrollTop: $("#infoFirst").offset().top},
+            'slow');
+    }
+
+    function scrollContact () {
+        $('html,body').animate({
+            scrollTop: $("#contact").offset().top},'slow');
+    }
+
+    function scrollServices () {
+            $('html,body').animate({
+            scrollTop: $('#services').offset().top},'slow');
+    }
+
+    $(".about").click(scrollAbout);
+    $(".contact").click(scrollContact);
+    $(".services").click(scrollServices);
 });

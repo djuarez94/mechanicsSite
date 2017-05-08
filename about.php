@@ -32,7 +32,7 @@
 		<div class="parallax">
 			<div class="parallaxContent">
 				<p>Fixing Car Problems for 10 Years!</p>
-				<button type="button" name="button"><a href="#infoFirst">Learn More!</a></button>
+				<button type="button" name="button"><a class="about" href="#infoFirst">Learn More!</a></button>
 			</div>
 		</div>
 		<div class="info" id ="infoFirst">
