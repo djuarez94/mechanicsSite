@@ -189,7 +189,7 @@ ul.nav.navbar-nav li.active a,
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
+  padding-bottom: -1em;
 }
 
 /*-------------------------------------
