@@ -213,10 +213,11 @@ ul.nav.navbar-nav li.active a,
 /*-------------------------------------
 | contact.php CSS
 -------------------------------------*/
-div.email {
+div.email a{
    font-size: 1em;
-   float: left;
-   display: flex;
+   color: #fff;
+   text-align: center;
+   display: inline-block;
    margin-top: 1em;
 }
 
@@ -228,11 +229,36 @@ div.number p {
    padding-left: 10px;
 }
 
+div.number a {
+   color: #fff;
+   display: inline-block;
+}
+
+div.number a:hover {
+   color: #f8792c;
+   text-decoration: none;
+}
+
+div.email a:hover {
+   color: #f8792c;
+   text-decoration: none;
+}
+
 div.number {
    font-size: 1em;
-   float: right;
-   display: flex;
+   color: #fff;
+   text-align: center;
+
    margin-top: 1em;
+}
+
+div.number i {
+   margin-bottom: .4em;
+}
+
+div.email i {
+   margin-bottom: .5em;
+   color: #fff;
 }
 
 .contact {
@@ -283,7 +309,7 @@ a i#socialLinks {
 }
 
 a i#socialLinks:hover {
-   color: #014f67;
+   color: #f8792c;
    font-size: 3em;
    cursor: pointer;
 }
@@ -297,7 +323,7 @@ a i#socialLinks:hover {
    border: none;
    border-radius: 25px;
    padding: 10px 20px 10px 20px;
-   background-color: #035872;
+   background-color: #f8792c;
    color: #fff;
    margin-left: -1em;
 }
@@ -305,7 +331,7 @@ a i#socialLinks:hover {
 #submitButton:hover {
    background-color: #fff;
    transition: .5s;
-   border: solid 3px #035872;
+   border: solid 3px #f8792c;
    cursor: pointer;
-   color: #035872;
+   color: #f8792c;
 }

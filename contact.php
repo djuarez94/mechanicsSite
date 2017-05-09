@@ -31,14 +31,6 @@
 			</div>
 		</nav>
 		<div class="parallax">
-			<div class="email">
-				<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
-				<p>emailAddress@email.com</p>
-			</div>
-			<div class="number">
-				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
-				<p>675-485-9384</p>
-			</div>
 			<div class="parallaxContent">
 				<p>Contact Me Today!</p>
 				<button type="button" name="button"><a class="contact" href="#contact">Learn More!</a></button>
@@ -67,6 +59,14 @@
 		</div>
 		<footer>
 			<img src="">
+			<div class="email">
+				<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
+				<a href="mailto:davidjuarez1411@gmail.com"><p>emailAddress@email.com</p></a>
+			</div>
+			<div class="number">
+				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
+				<a href="tel:1-675-485-9384"><p>675-485-9384</p></a>
+			</div>
 			<div class="socialLinks">
 				<a href="https://facebook.com"><i id="socialLinks" class="fa fa-facebook-square" aria-hidden="true"></i></a>
 				<a href="https://instagram.com"><i id="socialLinks" class="fa fa-instagram" aria-hidden="true"></i></a>
