@@ -239,7 +239,7 @@ div.number a:hover {
    text-decoration: none;
 }
 
-div.email a:hover {
+div.number a:hover {
    color: #f8792c;
    text-decoration: none;
 }
