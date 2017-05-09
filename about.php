@@ -6,7 +6,7 @@
 		<title>Mechanic Site</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
@@ -43,13 +43,13 @@
 			<h3>Values & Beliefs</h3>
 			<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
 		</div>
-		<div class="info experience">
+		<div class="info" id="experience">
 			<h3>Experience</h3>
 			<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
 			<div class="carLogos">
-				<img src="">
-				<img src="">
-				<img src="">
+				<img src="img/Chevy_Logo.png" width="100px" style="padding-right: 10px; padding-left: 10px;">
+				<img src="img/Honda_Logo.png" width="100px" style="padding-right: 10px; padding-left: 10px;">
+				<img src="img/Toyota_Logo.png" width="100px" style="padding-right: 10px; padding-left: 10px;">
 			</div>
 		</div>
 		<footer>

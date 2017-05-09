@@ -10,7 +10,7 @@ html, body {
 .parallax {
     /* The image used */
     background-image: url("../img/BG_1.jpg");
-    opacity: .75;
+    opacity: .9;
 
     /* Full height */
     /*height: 61.5%; */
@@ -21,6 +21,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
    }
 
 /*-------------------------------------
@@ -28,7 +29,7 @@ html, body {
 -------------------------------------*/
 nav.navbar.navbar-inverse {
     margin-bottom: 0px;
-    background-color: #0086af;
+    background-color: #035872;
     border: none;
 }
 
@@ -64,7 +65,7 @@ ul.nav.navbar-nav li a{
 ul.nav.navbar-nav li.active a,
    ul.nav.navbar-nav li.active a:hover{
    background-color: #fff;
-   color: #0086af;
+   color: #035872;
 }
 
 .background {
@@ -93,7 +94,7 @@ ul.nav.navbar-nav li.active a,
    color: #fff;
    padding-bottom: 1em;
    text-shadow: 0px 2px #010304;
-   font-family: 'Anton', sans-serif;
+   font-family: 'Poppins', sans-serif;
    display: none;
 }
 
@@ -102,7 +103,7 @@ ul.nav.navbar-nav li.active a,
    border: none;
    border-radius: 25px;
    padding: 10px 20px 10px 20px;
-   background-color: #0086af;
+   background-color: #f8792c;
    display: none;
 }
 
@@ -111,7 +112,7 @@ ul.nav.navbar-nav li.active a,
 }
 
 .parallaxContentHome button a:hover {
-   color: #0086af;
+   color: #f8792c;
    text-decoration: none;
    transition: .5s;
    cursor: pointer;
@@ -120,12 +121,13 @@ ul.nav.navbar-nav li.active a,
 .parallaxContentHome button:hover {
    background-color: #fff;
    transition: .5s;
-   border: solid 3px #0086af;
+   border: solid 3px #f8792c;
    cursor: pointer;
 }
 
 .parallaxContent {
    padding-top: 40%;
+   z-index: 1;
 }
 
 .parallaxContent p {
@@ -133,7 +135,7 @@ ul.nav.navbar-nav li.active a,
    color: #fff;
    padding-bottom: 1em;
    text-shadow: 0px 2px #010304;
-   font-family: 'Anton', sans-serif;
+   font-family: 'Poppins', sans-serif;
    display: none;
 }
 
@@ -142,7 +144,7 @@ ul.nav.navbar-nav li.active a,
    border: none;
    border-radius: 25px;
    padding: 10px 20px 10px 20px;
-   background-color: #0086af;
+   background-color: #f8792c;
    display: none;
 }
 
@@ -151,7 +153,7 @@ ul.nav.navbar-nav li.active a,
 }
 
 .parallaxContent button a:hover {
-   color: #0086af;
+   color: #f8792c;
    text-decoration: none;
    transition: .5s;
    cursor: pointer;
@@ -160,7 +162,7 @@ ul.nav.navbar-nav li.active a,
 .parallaxContent button:hover {
    background-color: #fff;
    transition: .5s;
-   border: solid 3px #0086af;
+   border: solid 3px #f8792c;
    cursor: pointer;
 }
 
@@ -181,7 +183,7 @@ ul.nav.navbar-nav li.active a,
 
 .carousel-inner {
   opacity: .75;
-  index: 0;
+  z-index: 0;
   margin-bottom: none;
 }
 
@@ -195,12 +197,17 @@ ul.nav.navbar-nav li.active a,
 /*-------------------------------------
 | about.php CSS
 -------------------------------------*/
-.experience {
-	background-color: rgb(250, 200, 150);
+#experience {
+	background-color: #f8792c;
+}
+
+.carLogos {
+   text-align: center;
 }
 
 .info {
    padding: 5px 15px 15px 15px;
+   background-color: rgba(211, 212, 243, 0.27);
 }
 
 /*-------------------------------------
@@ -262,7 +269,7 @@ footer {
    text-align: center;
    padding: 10px 10px 10px 0px;
    margin-bottom: 0px;
-   background-color: #0086af;
+   background-color: #035872;
 }
 
 a i#socialLinks {
@@ -290,7 +297,7 @@ a i#socialLinks:hover {
    border: none;
    border-radius: 25px;
    padding: 10px 20px 10px 20px;
-   background-color: #0086af;
+   background-color: #035872;
    color: #fff;
    margin-left: -1em;
 }
@@ -298,7 +305,7 @@ a i#socialLinks:hover {
 #submitButton:hover {
    background-color: #fff;
    transition: .5s;
-   border: solid 3px #0086af;
+   border: solid 3px #035872;
    cursor: pointer;
-   color: #0086af;
+   color: #035872;
 }
