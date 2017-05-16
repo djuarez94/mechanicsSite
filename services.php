@@ -31,14 +31,6 @@
 			</div>
 		</nav>
 		<div class="parallax">
-			<div class="email">
-				<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
-				<p>emailAddress@email.com</p>
-			</div>
-			<div class="number">
-				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
-				<p>675-485-9384</p>
-			</div>
 			<div class="parallaxContent">
 				<p>What Can I Do For You?</p>
 				<button type="button" name="button"><a class="servicesButton" href="#services">Find Out!</a></button>
@@ -67,6 +59,14 @@
 			</div>
 		</div>
 		<footer>
+			<div class="email">
+				<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
+				<p>emailAddress@email.com</p>
+			</div>
+			<div class="number">
+				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
+				<p>675-485-9384</p>
+			</div>
 			<img src="">
 			<div class="socialLinks">
 
