@@ -37,15 +37,15 @@
 		</div>
 		<div class="info" id ="infoFirst">
 			<h3>Mission Statement</h3>
-			<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
+			<p>At Pepe's Auto Repair Solutions we provide high quality auto repairs and superior customer service. Gaining trust and exceeding customers expectations is at the heart of our organization, as we give all customers an exceptional experience while having their vehicles serviced. We continue to strive to be a leading example in the auto repair industry and at the same time support our local community.</p>
 		</div>
 		<div class="info">
 			<h3>Values & Beliefs</h3>
-			<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
+			<p>Pepe's Auto Repair Solutions believes that trust and loyalty are two main factors to have in the auto repair industry. Our customer's come first because we want our customers to feel comfortable and safe driving their automobiles when leaving our parking lot.</p>
 		</div>
 		<div class="info" id="experience">
 			<h3>Experience</h3>
-			<p>This is just a placeholder text. It is used just for layout purposes and has nothing to do with the actual content that you will see on the final.</p>
+			<p>We have been repairing automobiles for 10 successful years! We began as self taught auto repair mechanics at a young age and began loving it more and more. We are knowledgeable of Chevrolets, Hondas, and Toyotas.</p>
 			<div class="carLogos">
 				<img src="img/Chevy_Logo.png" width="100px" style="padding-right: 10px; padding-left: 10px;">
 				<img src="img/Honda_Logo.png" width="100px" style="padding-right: 10px; padding-left: 10px;">
