@@ -31,6 +31,7 @@ nav.navbar.navbar-inverse {
     margin-bottom: 0px;
     background-color: #035872;
     border: none;
+    border-radius: 0;
 }
 
 ul.nav.navbar-nav {
