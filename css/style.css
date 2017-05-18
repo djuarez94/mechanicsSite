@@ -279,6 +279,7 @@ div.email i {
 
 .parent {
    padding: 1em 1em 1em 1em;
+   position: relative;
 }
 
 .shade {
@@ -287,6 +288,12 @@ div.email i {
 
 .parent h2 {
    margin-top: 10px;
+   position: relative;
+   left: 2em;
+}
+
+.carAlertIcons {
+   position: absolute;
 }
 /*-------------------------------------
 | footer CSS
