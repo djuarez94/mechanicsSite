@@ -89,6 +89,7 @@ ul.nav.navbar-nav li.active a,
    z-index: 1;
    text-align: center;
 }
+
 .parallaxContentHome p {
    font-size: 3em;
    color: #fff;
@@ -175,6 +176,10 @@ ul.nav.navbar-nav li.active a,
   border-top-right-radius: 10px;
 }
 
+.carousel {
+   height: 100%;
+}
+
 .carousel-control.left, .carousel-control.right {
    background-image:none !important;
    filter:none !important;
@@ -187,11 +192,30 @@ ul.nav.navbar-nav li.active a,
   margin-bottom: none;
 }
 
+.carousel-indicators {
+   bottom: 20px !important;
+}
+
 .full-screen {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: -1em;
+}
+
+@media only screen and (min-width: 768px) {
+   /*For Desktop*/
+   .parallaxContentHome {
+      padding-top: 20em;
+   }
+
+   .parallaxContent {
+      padding-top: 18.5em;
+   }
+
+   .carousel-control.left, .carousel-control.right {
+      display: block;
+   }
 }
 
 /*-------------------------------------
@@ -206,10 +230,20 @@ ul.nav.navbar-nav li.active a,
 }
 
 .info {
-   padding: 5px 15px 15px 15px;
+   padding: 25px;
    background-color: rgba(211, 212, 243, 0.27);
 }
+@media only screen and (min-width: 768px) {
 
+   .infoBox {
+      display: flex;
+   }
+
+   .infoBox .info {
+      flex: 2;
+      width: 50%;
+   }
+}
 /*-------------------------------------
 | contact.php CSS
 -------------------------------------*/
@@ -278,22 +312,60 @@ div.email i {
 }
 
 .parent {
-   padding: 1em 1em 1em 1em;
+   padding: 2em;
    position: relative;
+   /*height: 240px;*/
+
 }
+
 
 .shade {
    background-color: rgb(250, 200, 150);
 }
 
 .parent h2 {
-   margin-top: 10px;
+   margin-top: 0px;
    position: relative;
-   left: 2em;
+   padding-left: 1.7em;
+}
+
+.parent p {
+   margin-top: 1em;
 }
 
 .carAlertIcons {
    position: absolute;
+   margin-top: -6px;
+}
+
+.prices {
+   font-size: 1.75em;
+   color: #f8792c;
+}
+
+@media only screen and (min-width: 768px) {
+   /*For Desktop*/
+   .services {
+      display: flex;
+   }
+
+   .flexParents {
+      flex: 4;
+   }
+
+   .splitParent {
+      display: block;
+   }
+
+   .parent {
+      height: 240px;
+   }
+}
+
+@media only screen and (min-width: 833) {
+   .parent {
+      height: 240px;
+   }
 }
 /*-------------------------------------
 | footer CSS

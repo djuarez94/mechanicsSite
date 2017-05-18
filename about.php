@@ -6,6 +6,9 @@
 		<title>Mechanic Site</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	</head>
 	<body>
@@ -35,13 +38,15 @@
 				<button type="button" name="button"><a class="about" href="#infoFirst">Learn More!</a></button>
 			</div>
 		</div>
-		<div class="info" id ="infoFirst">
-			<h3>Mission Statement</h3>
-			<p>At Pepe's Auto Repair Solutions we provide high quality auto repairs and superior customer service. Gaining trust and exceeding customers expectations is at the heart of our organization, as we give all customers an exceptional experience while having their vehicles serviced. We continue to strive to be a leading example in the auto repair industry and at the same time support our local community.</p>
-		</div>
-		<div class="info">
-			<h3>Values & Beliefs</h3>
-			<p>Pepe's Auto Repair Solutions believes that trust and loyalty are two main factors to have in the auto repair industry. Our customer's come first because we want our customers to feel comfortable and safe driving their automobiles when leaving our parking lot.</p>
+		<div class="infoBox">
+			<div class="info" id ="infoFirst">
+				<h3>Mission Statement</h3>
+				<p>At Pepe's Auto Repair Solutions we provide high quality auto repairs and superior customer service. Gaining trust and exceeding customers expectations is at the heart of our organization, as we give all customers an exceptional experience while having their vehicles serviced. We continue to strive to be a leading example in the auto repair industry and at the same time support our local community.</p>
+			</div>
+			<div class="info">
+				<h3>Values & Beliefs</h3>
+				<p>Pepe's Auto Repair Solutions believes that trust and loyalty are two main factors to have in the auto repair industry. Our customer's come first because we want our customers to feel comfortable and safe driving their automobiles when leaving our parking lot.</p>
+			</div>
 		</div>
 		<div class="info" id="experience">
 			<h3>Experience</h3>

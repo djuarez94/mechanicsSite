@@ -6,7 +6,9 @@
 		<title>Mechanic Site</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	</head>
 	<body>
@@ -37,37 +39,43 @@
 			</div>
 		</div>
 		<div class="services" id="services">
-			<div class="parent">
-				<img class="carAlertIcons" src="img/carInspection_Icons.png" width="50px">
-				<h2>Car Inspection</h2>
-				<p>Get your automobile inspected for free at our auto shop. We will check your autmobile's oil change, air filters, tire pressure, brakes, engine, and even your windshield whipers all for free.</p>
+			<div class="splitParent">
+				<div class="parent flexParent">
+					<img class="carAlertIcons" src="img/carInspection_Icons.png" width="40px">
+					<h2>Car Inspection</h2>
+					<p>Get your automobile inspected for free at our auto shop. We will check your autmobile's oil change, air filters, tire pressure, brakes, engine, and even your windshield whipers all for free.</p>
+					<br>
+					<b class="prices">FREE</b>
+				</div>
+				<div class="parent flexParent shade">
+					<img class="carAlertIcons" src="img/oilChange_Icon.png" width="40px">
+					<h2>Oil Changes</h2>
+					<p>We strive to make oil changes at our shops to be no longer than 30 minutes. We understand that our csutomers have busy schedules which is why we provide them with a quic and easy oil change service.</p>
+					<br>
+					<b class="prices">$30.00</b>
+				</div>
 			</div>
-			<div class="parent shade">
-				<img class="carAlertIcons" src="img/oilChange_Icon.png" width="50px">
-				<h2>Oil Changes</h2>
-				<p>We strive to make oil changes at our shops to be no longer than 30 minutes. We understand that our csutomers have busy schedules which is why we provide them with a quic and easy oil change service.</p>
-				<br>
-				<b>$30.00</b>
+			<div class="splitParent">
+				<div class="parent flexParent">
+					<img class="carAlertIcons" src="img/battery_Icon.png" width="40px">
+					<h2>Battery</h2>
+					<p>Our batteries come with a 3 year warranty for your automobile. We do not only inspect to make sure that your battery is running as it should, but we also make sure that you get the best long lasting battery for your automobile when needed.</p>
+					<br>
+					<b class="prices">$35.00 + Battery Price</b>
+				</div>
+				<div class="parent flexParent shade">
+					<img class="carAlertIcons" src="img/radiator_Icon.png" width="40px">
+					<h2>Radiator</h2>
+					<p>Automobile running hot? No worries. At Pepe's Automobile Repair Solution's, receive a coolant flush for an affordable price. This includes four gallons of coolant, a conditioner and a cleaner.</p>
+					<br>
+					<b class="prices">$150</b>
+				</div>
 			</div>
-			<div class="parent">
-				<img class="carAlertIcons" src="img/battery_Icon.png" width="50px">
-				<h2>Battery</h2>
-				<p>Our batteries come with a 3 year warranty for your automobile. We do not only inspect to make sure that your battery is running as it should, but we also make sure that you get the best long lasting battery for your automobile when needed.</p>
-				<br>
-				<b>$35.00 + Battery Price</b>
-			</div>
-			<div class="parent shade">
-				<img class="carAlertIcons" src="img/radiator_Icon.png" width="50px">
-				<h2>Radiator</h2>
-				<p>Automobile running hot? No worries. At Pepe's Automobile Repair Solution's, receive a coolant flush for an affordable price. This includes four gallons of coolant, a conditioner and a cleaner.</p>
-				<br>
-				<b>$150</b>
-			</div>
-			<div class="parent">
-				<img class="carAlertIcons" src="img/specials_Icons.png" width="50px">
-				<h2>Specials!</h2>
-				<p>Don't have time to make it to our auto shops, or your automobile's problem prevents you from making it to our shops? No worries. We have a special going on this month where our mechanics enjoy the privelege of coming to you and finding a solution to your automobile's problems! Our prices for this special depends on the problem plus the area where the service will be done. So please give us a call to find out more!</p>
-			</div>
+		</div>
+		<div class="parent">
+			<img class="carAlertIcons" src="img/specials_Icons.png" width="40px">
+			<h2>Specials!</h2>
+			<p>Don't have time to make it to our auto shops, or your automobile's problem prevents you from making it to our shops? No worries. We have a special going on this month where our mechanics enjoy the privelege of coming to you and finding a solution to your automobile's problems! Our prices for this special depends on the problem plus the area where the service will be done. So please give us a call to find out more!</p>
 		</div>
 		<footer>
 			<div class="email">
