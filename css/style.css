@@ -297,6 +297,17 @@ div.navbar-header  {
       margin-right: 10em;
    }
 
+   .parallaxContentHome p {
+      font-size: 3em;
+      color: #fff;
+      background-color: rgba(248,121,44,0.5);
+      margin-bottom: 1em;
+      padding: 1em 1em 1em 1em;
+      text-shadow: 0px 2px #010304;
+      font-family: 'Poppins', sans-serif;
+      display: none;
+   }
+
    .parallaxContent {
       padding-top: 13.5em;
       margin-left: 13em;
@@ -312,6 +323,17 @@ div.navbar-header  {
 /*For Tablet*/
    .parallaxContentHome {
       padding-top: 15em;
+   }
+
+   .parallaxContentHome p {
+      font-size: 2.5em;
+      color: #fff;
+      background-color: rgba(248,121,44,0.5);
+      margin-bottom: 1em;
+      padding: 1em 1em 1em 1em;
+      text-shadow: 0px 2px #010304;
+      font-family: 'Poppins', sans-serif;
+      display: none;
    }
 }
 
