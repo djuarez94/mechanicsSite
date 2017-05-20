@@ -62,11 +62,11 @@ html, body {
 | index.php CSS
 -------------------------------------*/
 div.navbar-header .navbar-toggle .icon-bar {
-    display: block;
-    width: 42px;
-    height: 2px;
-    border-radius: 1px;
-    margin-bottom: 1em;
+	display: block;
+	width: 42px;
+	height: 2px;
+	border-radius: 1px;
+	margin-bottom: 0.8em;
 }
 
 div.navbar-header .navbar-toggle {
