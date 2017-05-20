@@ -7,9 +7,26 @@ html, body {
     height:100%;
 }
 
-.parallax {
+.parallaxAbout {
+   /* The image used */
+   background-image: url("../img/aboutPage_BGimg.jpg");
+   opacity: .9;
+
+   /* Full height */
+   /*height: 61.5%; */
+   height: 92.5%;
+
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   z-index: 1;
+}
+
+.parallaxContact {
     /* The image used */
-    background-image: url("../img/BG_1.jpg");
+    background-image: url("../img/contactPage_BGimg.jpg");
     opacity: .9;
 
     /* Full height */
@@ -22,11 +39,41 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
-   }
+}
+
+.parallaxServices {
+   /* The image used */
+   background-image: url("../img/servicesPage_BGimg.jpg");
+   opacity: .9;
+
+   /* Full height */
+   /*height: 61.5%; */
+   height: 92.5%;
+
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   z-index: 1;
+}
 
 /*-------------------------------------
 | index.php CSS
 -------------------------------------*/
+div.navbar-header .navbar-toggle .icon-bar {
+    display: block;
+    width: 42px;
+    height: 2px;
+    border-radius: 1px;
+    margin-bottom: 1em;
+}
+
+div.navbar-header .navbar-toggle {
+   padding-top: 1em;
+   padding-bottom: 0em;
+}
+
 nav.navbar.navbar-inverse {
     margin-bottom: 0px;
     background-color: #035872;
@@ -77,7 +124,17 @@ ul.nav.navbar-nav li.active a,
     background-position:50% 50%\9 !important;
 }
 
-.parallax {
+.parallaxAbout {
+   text-align: center;
+   padding: 1.5em;
+}
+
+.parallaxServices {
+   text-align: center;
+   padding: 1.5em;
+}
+
+.parallaxContact {
    text-align: center;
    padding: 1.5em;
 }
@@ -94,7 +151,9 @@ ul.nav.navbar-nav li.active a,
 .parallaxContentHome p {
    font-size: 3em;
    color: #fff;
-   padding-bottom: 1em;
+   background-color: rgba(248,121,44,0.5);
+   margin-bottom: 1em;
+   padding: 1em 1em 1em 1em;
    text-shadow: 0px 2px #010304;
    font-family: 'Poppins', sans-serif;
    display: none;
@@ -135,7 +194,9 @@ ul.nav.navbar-nav li.active a,
 .parallaxContent p {
    font-size: 3em;
    color: #fff;
-   padding-bottom: 1em;
+   background-color: rgba(248,121,44,0.5);
+   margin-bottom: 1em;
+   padding: 1em 1em 1em 1em;
    text-shadow: 0px 2px #010304;
    font-family: 'Poppins', sans-serif;
    display: none;
@@ -206,16 +267,51 @@ ul.nav.navbar-nav li.active a,
 
 @media only screen and (min-width: 768px) {
    /*For Desktop*/
+   ul.nav.navbar-nav {
+       float: right;
+       margin-top: 0em;
+       margin-bottom: 0em;
+       padding-top: 1.1em;
+   }
+
+   ul.nav.navbar-nav li.active a, ul.nav.navbar-nav li.active a:hover {
+      border-bottom: solid 3px #f8792c;
+      background-color: #035872;
+      color: #fff;
+   }
+
+   ul.nav.navbar-nav li a:hover {
+      border-bottom: solid 3px #fff;
+      background-color: #035872;
+      color: #fff;
+   }
+
+div.navbar-header  {
+   padding-top: 0em;
+   padding-bottom: 2.2em;
+}
+
    .parallaxContentHome {
-      padding-top: 20em;
+      padding-top: 15em;
+      margin-left: 10em;
+      margin-right: 10em;
    }
 
    .parallaxContent {
-      padding-top: 18.5em;
+      padding-top: 13.5em;
+      margin-left: 13em;
+      margin-right: 13em;
    }
 
    .carousel-control.left, .carousel-control.right {
       display: block;
+   }
+}
+
+@media only screen and (min-width: 600px) {
+/*For Tablet*/
+   .parallaxContentHome {
+      padding-top: 15em;
    }
 }
 
@@ -235,7 +331,7 @@ ul.nav.navbar-nav li.active a,
    background-color: rgba(211, 212, 243, 0.27);
 }
 @media only screen and (min-width: 768px) {
-
+/*For Desktop*/
    .infoBox {
       display: flex;
    }
@@ -258,10 +354,12 @@ div.email a{
 
 div.email p {
    padding-left: 10px;
+   letter-spacing: 1px;
 }
 
 div.number p {
    padding-left: 10px;
+   letter-spacing: 1px;
 }
 
 div.number a {
@@ -269,7 +367,7 @@ div.number a {
    display: inline-block;
 }
 
-div.number a:hover {
+div.email a:hover {
    color: #f8792c;
    text-decoration: none;
 }
@@ -378,6 +476,113 @@ footer {
    background-color: #035872;
 }
 
+.footerLogo {
+   padding: 4em 0em 4em 0em;
+}
+
+div.emailTop {
+   display: none;
+}
+
+div.numberTop {
+   display: none;
+}
+
+@media only screen and (min-width: 768px) {
+   /*For Desktop*/
+   .footerLogo {
+      position: absolute;
+      right: 2em;
+   }
+
+   .socialLinks {
+      float: left;
+      padding-left: 2em;
+      padding-top: 2em;
+      text-align: left;
+   }
+
+   i#socialLinks.fa {
+    margin-right: 1.5em;
+    margin-top: 1em;
+    margin-left: 0;
+}
+
+   footer {
+      height: 31.5%;
+   }
+
+   div.email {
+      display: none;
+   }
+
+   div.number {
+      display: none;
+   }
+
+   div.emailTop {
+      float: left;
+      display: block;
+   }
+
+   div.numberTop {
+      float: right;
+      display: block;
+   }
+
+   div.emailTop a{
+      font-size: 1em;
+      color: #f8792c;
+      text-align: center;
+      display: inline-block;
+      margin-top: 1em;
+   }
+
+   div.emailTop p {
+      padding-left: 10px;
+      font-size: 1.2em;
+      letter-spacing: 1px;
+   }
+
+
+   div.numberTop a{
+      font-size: 1em;
+      color: #f8792c;
+      text-align: center;
+      display: inline-block;
+      margin-top: 1em;
+      letter-spacing: 1px;
+   }
+
+   div.numberTop a:hover {
+      border-bottom: 3px #f8792c solid;
+      text-decoration: none;
+   }
+
+   div.emailTop a:hover {
+      border-bottom: 3px #f8792c solid;
+      text-decoration: none;
+   }
+
+   div.numberTop p {
+      padding-left: 10px;
+      font-size: 1.2em;
+   }
+   div.number i {
+      margin-bottom: .4em;
+   }
+
+   i.fa.fa-mobile {
+      margin-bottom: .5em;
+      color: #f8792c;
+   }
+
+   i.fa.fa-envelope {
+      margin-bottom: .5em;
+      color: #f8792c;
+   }
+}
+
 a i#socialLinks {
    font-size: 2.5em;
    margin-bottom: .7em;
@@ -396,6 +601,7 @@ a i#socialLinks:hover {
 
 .copyright {
    color: #fff;
+   margin-top: 1em;
 }
 
 #submitButton {

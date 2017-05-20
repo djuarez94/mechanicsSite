@@ -10,6 +10,7 @@
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<link rel="stylesheet" href=" https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css ">
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
@@ -20,7 +21,7 @@
 				   <span class="icon-bar"></span>
 				   <span class="icon-bar"></span>
 				 </button>
-				 <a class="navbar-brand" href="index.php">Mechanic Site</a>
+				 <a class="navbar-brand" href="index.php"><img src="img/mainLogo_Sm.png" alt=""></a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
@@ -32,7 +33,7 @@
 				</div>
 			</div>
 		</nav>
-		<div class="parallax">
+		<div class="parallaxAbout">
 			<div class="parallaxContent">
 				<p>Fixing Car Problems for 10 Years!</p>
 				<button type="button" name="button"><a class="about" href="#infoFirst">Learn More!</a></button>
@@ -41,11 +42,11 @@
 		<div class="infoBox">
 			<div class="info" id ="infoFirst">
 				<h3>Mission Statement</h3>
-				<p>At Pepe's Auto Repair Solutions we provide high quality auto repairs and superior customer service. Gaining trust and exceeding customers expectations is at the heart of our organization, as we give all customers an exceptional experience while having their vehicles serviced. We continue to strive to be a leading example in the auto repair industry and at the same time support our local community.</p>
+				<p>At Pepe's Auto Shop Solutions we provide high quality auto repairs and superior customer service. Gaining trust and exceeding customers expectations is at the heart of our organization, as we give all customers an exceptional experience while having their vehicles serviced. We continue to strive to be a leading example in the auto repair industry and at the same time support our local community.</p>
 			</div>
 			<div class="info">
 				<h3>Values & Beliefs</h3>
-				<p>Pepe's Auto Repair Solutions believes that trust and loyalty are two main factors to have in the auto repair industry. Our customer's come first because we want our customers to feel comfortable and safe driving their automobiles when leaving our parking lot.</p>
+				<p>Pepe's Auto Shop Solutions believes that trust and loyalty are two main factors to have in the auto repair industry. Our customer's come first because we want our customers to feel comfortable and safe driving their automobiles when leaving our parking lot.</p>
 			</div>
 		</div>
 		<div class="info" id="experience">
@@ -58,8 +59,21 @@
 			</div>
 		</div>
 		<footer>
-			<img src="">
-			<p class="copyright">&copy; <?php echo date('Y'); ?> Company Name. All rights reserved.</p>
+			<img class="footerLogo" src="img/mainLogo_Lrg.png">
+			<div class="email">
+				<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
+				<a href="mailto:randomEmail@email.com"><p>randomEmail@email.com</p></a>
+			</div>
+			<div class="number">
+				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
+				<a href="tel:1-675-485-9384"><p>675-485-9384</p></a>
+			</div>
+			<div class="socialLinks">
+				<a href="https://facebook.com"><i id="socialLinks" class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="https://instagram.com"><i id="socialLinks" class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="https://twitter.com"><i id="socialLinks" class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<p class="copyright">&copy; <?php echo date('Y'); ?> Pepe's Auto Shop Solutions. All rights reserved.</p>`
+			</div>
 		</footer>
 	</body>
 

@@ -21,7 +21,7 @@
 				   <span class="icon-bar"></span>
 				   <span class="icon-bar"></span>
 				 </button>
-				 <a class="navbar-brand" href="index.php">Mechanic Site</a>
+				 <a class="navbar-brand" href="index.php"><img src="img/mainLogo_Sm.png" alt=""></a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
@@ -33,7 +33,15 @@
 				</div>
 			</div>
 		</nav>
-		<div class="parallax">
+		<div class="parallaxServices">
+			<div class="emailTop">
+				<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
+				<a href="mailto:randomEmail@email.com"><p>randomEmail@email.com</p></a>
+			</div>
+			<div class="numberTop">
+				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
+				<a href="tel:1-675-485-9384"><p>675-485-9384</p></a>
+			</div>
 			<div class="parallaxContent">
 				<p>What Can I Do For You?</p>
 				<button type="button" name="button"><a class="servicesButton" href="#services">Find Out!</a></button>
@@ -51,7 +59,7 @@
 				<div class="parent flexParent shade">
 					<img class="carAlertIcons" src="img/oilChange_Icon.png" width="40px">
 					<h2>Oil Changes</h2>
-					<p>We strive to make oil changes at our shops to be no longer than 30 minutes. We understand that our csutomers have busy schedules which is why we provide them with a quic and easy oil change service.</p>
+					<p>We strive to make oil changes at our shops to be no longer than 30 minutes. We understand that our csutomers have busy schedules which is why we provide them with a quick and easy oil change service.</p>
 					<br>
 					<b class="prices">$30.00</b>
 				</div>
@@ -79,19 +87,21 @@
 			<p>Don't have time to make it to our auto shops, or your automobile's problem prevents you from making it to our shops? No worries. We have a special going on this month where our mechanics enjoy the privelege of coming to you and finding a solution to your automobile's problems! Our prices for this special depends on the problem plus the area where the service will be done. So please give us a call to find out more!</p>
 		</div>
 		<footer>
+			<img class="footerLogo" src="img/mainLogo_Lrg.png">
 			<div class="email">
 				<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
-				<a href="mailto:davidjuarez1411@gmail.com"><p>emailAddress@email.com</p></a>
+				<a href="mailto:randomEmail@email.com"><p>randomEmail@email.com</p></a>
 			</div>
 			<div class="number">
 				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
 				<a href="tel:1-675-485-9384"><p>675-485-9384</p></a>
 			</div>
-			<img src="">
 			<div class="socialLinks">
-
+				<a href="https://facebook.com"><i id="socialLinks" class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="https://instagram.com"><i id="socialLinks" class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="https://twitter.com"><i id="socialLinks" class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<p class="copyright">&copy; <?php echo date('Y'); ?> Pepe's Auto Shop Solutions. All rights reserved.</p>`
 			</div>
-			<p class="copyright">&copy; <?php echo date('Y'); ?> Company Name. All rights reserved.</p>
 		</footer>
 	</body>
 
