@@ -140,7 +140,7 @@ ul.nav.navbar-nav li.active a,
 }
 
 .parallaxContentHome {
-   padding-top: 40%;
+   padding-top: 20%;
    position: absolute;
    left: 10%;
    right: 10%;
@@ -149,7 +149,7 @@ ul.nav.navbar-nav li.active a,
 }
 
 .parallaxContentHome p {
-   font-size: 3em;
+   font-size: 2em;
    color: #fff;
    background-color: rgba(248,121,44,0.5);
    margin-bottom: 1em;
@@ -187,12 +187,12 @@ ul.nav.navbar-nav li.active a,
 }
 
 .parallaxContent {
-   padding-top: 40%;
+   padding-top: 20%;
    z-index: 1;
 }
 
 .parallaxContent p {
-   font-size: 3em;
+   font-size: 2em;
    color: #fff;
    background-color: rgba(248,121,44,0.5);
    margin-bottom: 1em;
