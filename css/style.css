@@ -140,7 +140,7 @@ ul.nav.navbar-nav li.active a,
 }
 
 .parallaxContentHome {
-   padding-top: 20%;
+   padding-top: 30%;
    position: absolute;
    left: 10%;
    right: 10%;
@@ -187,7 +187,7 @@ ul.nav.navbar-nav li.active a,
 }
 
 .parallaxContent {
-   padding-top: 20%;
+   padding-top: 30%;
    z-index: 1;
 }
 
