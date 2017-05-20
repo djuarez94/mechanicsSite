@@ -43,7 +43,7 @@
 				<a href="tel:1-675-485-9384"><p>675-485-9384</p></a>
 			</div>
 			<div class="parallaxContent">
-				<p>What Can I Do For You?</p>
+				<p>What Can We Do For You?</p>
 				<button type="button" name="button"><a class="servicesButton" href="#services">Find Out!</a></button>
 			</div>
 		</div>
