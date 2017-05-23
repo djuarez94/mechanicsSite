@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Mechanic Site</title>
+		<title>PASS : Services</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -44,7 +44,7 @@
 			</div>
 			<div class="parallaxContent">
 				<p>What Can We Do For You?</p>
-				<button type="button" name="button"><a class="servicesButton" href="#services">Find Out!</a></button>
+				<a class="contact" href="#services"><button type="button" name="button">Find Out!</button></a>
 			</div>
 		</div>
 		<div class="services" id="services">
@@ -59,7 +59,7 @@
 				<div class="parent flexParent shade">
 					<img class="carAlertIcons" src="img/oilChange_Icon.png" width="40px">
 					<h2>Oil Changes</h2>
-					<p>We strive to make oil changes at our shops to be no longer than 30 minutes. We understand that our csutomers have busy schedules which is why we provide them with a quick and easy oil change service.</p>
+					<p>We strive to make oil changes at our shops to be no longer than 30 minutes. We understand that our customers have busy schedules which is why we provide them with a quick and easy oil change service.</p>
 					<br>
 					<b class="prices">$30.00</b>
 				</div>

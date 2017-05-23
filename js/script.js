@@ -1,5 +1,9 @@
 $(document).ready(function(){
 /*-------------------------------------
+| Toggle Dropdown Navbar Menu
+-------------------------------------*/
+$(".navbar-inverse button.navbar-toggle").toggleClass('in');
+/*-------------------------------------
 | Slideshow Effect
 -------------------------------------*/
     var $item = $('.carousel .item');

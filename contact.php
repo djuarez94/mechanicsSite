@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Mechanic Site</title>
+		<title>PASS : Contact</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -44,7 +44,7 @@
 			</div>
 			<div class="parallaxContent">
 				<p>Contact Us Today!</p>
-				<button type="button" name="button"><a class="contact" href="#contact">Contact Us</a></button>
+				<a class="contact" href="#contact"><button type="button" name="button">Contact Us</button></a>
 			</div>
 		</div>
 		<div class="contact" id="contact">
