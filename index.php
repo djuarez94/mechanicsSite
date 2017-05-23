@@ -36,7 +36,7 @@
 		<div class="parallaxAbout">
 			<div class="parallaxContent">
 				<p>Fixing Car Problems for 10 Years!</p>
-				<a href="about.php"><button type="button" name="button"><i class="fa fa-arrow-down" aria-hidden="true"></i></button></a>
+				<a href="#services"><button type="button" name="button"><i class="fa fa-arrow-down" aria-hidden="true"></i></button></a>
 			</div>
 		</div>
 		<div class="services" id="services">

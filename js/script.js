@@ -63,4 +63,6 @@ $(".navbar-inverse button.navbar-toggle").toggleClass('in');
     $(".about").click(scrollAbout);
     $(".contact").click(scrollContact);
     $(".servicesButton").click(scrollServices);
+    $(".servicesButton").click(scrollServices);
+    $(".parallaxAbout a").click(scrollServices);
 });
