@@ -102,13 +102,4 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="info" id="experience">
-			<h3>Experience</h3>
-			<p>We have been repairing automobiles for 10 successful years! We began as self taught auto repair mechanics at a young age and began loving it more and more. We are knowledgeable of Chevrolets, Hondas, and Toyotas.</p>
-			<div class="carLogos">
-				<img src="img/Chevy_Logo.png" width="100px" style="padding-right: 10px; padding-left: 10px;">
-				<img src="img/Honda_Logo.png" width="100px" style="padding-right: 10px; padding-left: 10px;">
-				<img src="img/Toyota_Logo.png" width="100px" style="padding-right: 10px; padding-left: 10px;">
-			</div>
-		</div> -->
 		<?php include 'footer.php' ?>
