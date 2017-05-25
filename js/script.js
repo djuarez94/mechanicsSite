@@ -46,18 +46,18 @@ $(".navbar-inverse button.navbar-toggle").toggleClass('in');
     -------------------------------------*/
     function scrollAbout () {
         $('html,body').animate({
-            scrollTop: $("#infoFirst").offset().top},
+            scrollTop: $("#infoFirst").offset().top-70},
             'slow');
     }
 
     function scrollContact () {
         $('html,body').animate({
-            scrollTop: $("#contact").offset().top},'slow');
+            scrollTop: $("#contact").offset().top-70},'slow');
     }
 
     function scrollServices () {
             $('html,body').animate({
-            scrollTop: $('#services').offset().top},'slow');
+            scrollTop: $('#services').offset().top-70},'slow');
     }
 
     $(".about").click(scrollAbout);

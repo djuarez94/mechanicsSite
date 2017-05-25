@@ -65,7 +65,7 @@
 				</div>
 			</div>
 			<div class="splitParent">
-				<div class="parent flexParent">
+				<div class="parent flexParent" id ="moreText">
 					<img class="carAlertIcons" src="img/battery_Icon.png" width="40px">
 					<h2>Battery</h2>
 					<p>Our batteries come with a 3 year warranty for your automobile. We do not only inspect to make sure that your battery is running as it should, but we also make sure that you get the best long lasting battery for your automobile when needed.</p>
@@ -81,7 +81,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="parent">
+		<div class="parent" id ="moreText">
 			<img class="carAlertIcons" src="img/specials_Icons.png" width="40px">
 			<h2>Specials!</h2>
 			<p>Don't have time to make it to our auto shops, or your automobile's problem prevents you from making it to our shops? No worries. We have a special going on this month where our mechanics enjoy the privelege of coming to you and finding a solution to your automobile's problems! Our prices for this special depends on the problem plus the area where the service will be done. So please give us a call to find out more!</p>

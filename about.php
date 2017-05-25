@@ -36,7 +36,7 @@
 		<div id="mycarousel" class="carousel slide" data-ride="carousel">
 			<div class="parallaxContentHome">
 				<p>Pepe's Auto Shop Solutions</p>
-				<a class="about" href="#infoFirst"><button type="button" name="button">Learn More!</button></a>
+				<a class="about" href="#infoBox"><button type="button" name="button">Learn More!</button></a>
 			</div>
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">

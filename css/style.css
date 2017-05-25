@@ -462,7 +462,10 @@ div.email i {
 -------------------------------------*/
 .services {
    background-color: rgba(211, 212, 243, 0.27);
-   /*padding: 1.2em;*/
+}
+
+#moreText {
+   height: 300px;
 }
 
 .parent {
@@ -520,6 +523,10 @@ div.email i {
    /*For Desktop*/
    .services {
       display: flex;
+   }
+
+   #moreText {
+      height: 240px;
    }
 
    .parentHome {
