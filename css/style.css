@@ -101,6 +101,7 @@ ul.nav.navbar-nav {
    text-align: center;
    margin-bottom: 0;
    margin-top: 0;
+   z-index: 1;
 }
 
 .navbar-inverse a.navbar-brand {
@@ -272,6 +273,7 @@ ul.nav.navbar-nav li.active a,
 
 .carousel-indicators {
    bottom: 20px !important;
+   z-index: 1 !important;
 }
 
 .full-screen {
@@ -309,6 +311,7 @@ nav.navbar.navbar-inverse {
 div.navbar-header  {
    padding-top: 0em;
    padding-bottom: 2.2em;
+   z-index:1;
 }
 
    .parallaxContentHome {
