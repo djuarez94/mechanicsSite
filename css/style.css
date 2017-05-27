@@ -35,7 +35,7 @@ html, body {
 
     /* Full height */
     /*height: 61.5%; */
-    height: 92.5%;
+    height: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -52,7 +52,7 @@ html, body {
 
    /* Full height */
    /*height: 61.5%; */
-   height: 92.5%;
+   height: 100%;
 
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
@@ -157,7 +157,7 @@ ul.nav.navbar-nav li.active a,
 }
 
 .parallaxContentHome {
-   padding-top: 30%;
+   padding-top: 40%;
    position: absolute;
    left: 10%;
    right: 10%;
@@ -195,7 +195,7 @@ ul.nav.navbar-nav li.active a,
 }
 
 .parallaxContent {
-   padding-top: 30%;
+   padding-top: 40%;
    z-index: 1;
 }
 

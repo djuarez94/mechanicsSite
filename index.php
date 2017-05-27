@@ -21,7 +21,7 @@
 				   <span class="icon-bar"></span>
 				   <span class="icon-bar"></span>
 				 </button>
-				 <a class="navbar-brand" href="index.php"><img src="img/mainLogo_Sm.png" alt=""></a>
+				 <a class="navbar-brand" href="index.php"><img src="img/mainLogo_Sm.png" alt="Site Logo"></a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
@@ -65,7 +65,7 @@
 						<br>
 						Sunday : Closed
 					</p>
-					<a href="services.php">Contact Us >></a>
+					<a href="contact.php">Contact Us >></a>
 				</div>
 			</div>
 		</div>
